@@ -1,0 +1,121 @@
+{
+  "machine": {
+    "outlets": {
+      "count_n": 10
+    },
+    "total_items_quantity": {
+      "hot_water": 1000,
+      "hot_milk": 1500,
+      "ginger_syrup": 300,
+      "sugar_syrup": 300,
+      "tea_leaves_syrup": 200,
+      "green_mixture": 200,
+      "chocolate_syrup" : 300
+    },
+    "beverages": {
+      "hot_tea": {
+        "hot_water": 200,
+        "hot_milk": 100,
+        "ginger_syrup": 10,
+        "sugar_syrup": 10,
+        "tea_leaves_syrup": 30
+      },
+      "hot_coffee": {
+        "hot_water": 100,
+        "ginger_syrup": 30,
+        "hot_milk": 400,
+        "sugar_syrup": 50,
+        "tea_leaves_syrup": 30
+      },
+      "black_tea": {
+        "hot_water": 300,
+        "ginger_syrup": 30,
+        "sugar_syrup": 50,
+        "tea_leaves_syrup": 30
+      },
+      "green_tea": {
+        "hot_water": 100,
+        "ginger_syrup": 30,
+        "sugar_syrup": 50,
+        "green_mixture": 30
+      },
+      "hot_chocolate" : {
+        "hot_water": 100,
+        "hot_milk": 400,
+        "chocolate_syrup": 100
+      },
+      "latte_coffee" : {
+        "hot_water": 100,
+        "ginger_syrup": 30,
+        "hot_milk": 500,
+        "sugar_syrup": 50,
+        "tea_leaves_syrup": 20
+      }
+    },
+    "orders": [
+      {
+        "order_type":"make_beverages",
+        "order_items":[
+          "hot_tea",
+          "hot_coffee",
+          "black_tea",
+          "hot_chocolate",
+          "latte_coffee"
+        ]
+      },
+      {
+        "order_type":"make_beverages",
+        "order_items":[
+          "hot_tea",
+          "hot_coffee",
+          "black_tea",
+          "latte_coffee",
+          "green_tea",
+          "hot_tea",
+          "hot_coffee",
+          "black_tea",
+          "latte_coffee",
+          "green_tea"
+        ]
+      },
+      {
+        "order_type":"refill_items",
+        "order_items": {
+          "hot_water": 1500,
+          "hot_milk": 1500,
+          "ginger_syrup": 200,
+          "sugar_syrup": 300,
+          "tea_leaves_syrup": 200,
+          "chocolate_syrup" : 400
+        }
+      },
+      {
+        "order_type":"make_beverages",
+        "order_items":[
+          "hot_tea",
+          "hot_coffee",
+          "black_tea",
+          "hot_tea",
+          "hot_coffee",
+          "black_tea",
+          "hot_tea",
+          "hot_coffee",
+          "black_tea",
+          "latte_coffee",
+          "green_tea"
+        ]
+      },
+      {
+        "order_type":"refill_items",
+        "order_items": {
+          "hot_water": 600,
+          "hot_milk": 500,
+          "ginger_syrup": 500,
+          "sugar_syrup": 500,
+          "tea_leaves_syrup": 500,
+          "chocolate_syrup" : 200
+        }
+      }
+    ]
+  }
+}

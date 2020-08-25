@@ -1,0 +1,6 @@
+Step to be taken to run coffee machine :
+1) Edit the Json files which are represent in resources folder or use one of them
+2) Edit the FILE_PATH variable present in CoffeeMachine class to five file path
+3) Run the main function to start the machine and process the orders.
+4) Output will be shown in the console.
+5) A separate thread will be started which will notify will any ingredient is running low.
